@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Sueldo Semanal</title>
+    <link rel="stylesheet" href="..//styles/estilo3.2.css">
+</head>
+<body>
+
+<div class="Nomina">
+    <h2>Nómina Semanal</h2>
+    
+    <div class="horas">
+        <label for="horas">Horas trabajadas:</label>
+        <input type="number" id="horas" name="horas">
+    </div>
+    
+    <div class="pago">
+        <label for="pago">Pago por hora:</label>
+        <input type="number" id="pago" value="100">
+    </div>
+    
+    <button onclick="calcular()">Calcular Sueldo</button>
+    
+    <div id="resultado" class="res-box">
+        <div id="detalle"></div>
+        <hr>
+        <div style="font-size: 1.2rem;"><strong>Total: $<span id="total"></span></strong></div>
+    </div>
+    <img src="..//imagenes/empresa.jpg" alt="sueldo">
+</div>
+
+</body>
+<script src="..//scripts/3.2.js"></script>
+</html>

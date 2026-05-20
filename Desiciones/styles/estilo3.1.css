@@ -1,0 +1,77 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9; 
+}
+
+.votacion-card { 
+    background: white; 
+    padding: 2rem; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    width: 320px; 
+    text-align: center;
+}
+
+h2 {
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+input { 
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 20px; 
+    border: 2px solid #e2e8f0; 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button { 
+    width: 100%; 
+    padding: 12px; 
+    background-color: #2563eb; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-weight: 600;
+    cursor: pointer; 
+    transition: background 0.3s;
+}
+
+button:hover { 
+    background-color: #1d4ed8; 
+}
+
+#resultado { 
+    margin: 20px 0; 
+    font-weight: bold; 
+    min-height: 24px;
+}
+
+.puedes { color: #059669; }
+.no-puedes { color: #dc2626; }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}

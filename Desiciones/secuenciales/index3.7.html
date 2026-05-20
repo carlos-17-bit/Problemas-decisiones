@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Becas Universitarias</title>
+    <link rel="stylesheet" href="../styles/estilo3.7.css">
+</head>
+<body>
+    <div class="Asignación">
+        <h2>Asignación de Becas</h2>
+        <div class="edad">
+            <label for="edad">Edad del estudiante:</label>
+            <input type="number" id="edad">
+        </div>
+        <div class="promedio">
+            <label for="promedio">Promedio obtenido:</label>
+            <input type="number" id="promedio" step="0.1">
+        </div>
+        <button onclick="procesarBeca()">Consultar Beca</button>
+        
+        <div id="resultado"></div>
+        
+        <img src="../imagenes/beca.jpg" alt="beca">
+    </div>
+
+    <script src="../scripts/3.7.js"></script>
+</body>
+</html>

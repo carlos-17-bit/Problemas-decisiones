@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seguros de Auto</title>
+    <link rel="stylesheet" href="..//styles/estilo3.9.css">
+</head>
+<body>
+    <div class="inicio">
+        <h2>Cotizador de Póliza</h2>
+        <label>Tipo de Póliza:</label>
+        <select id="tipo">
+            <option value="A">Cobertura Amplia (A)</option>
+            <option value="B">Daños a Terceros (B)</option>
+        </select>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Ingrese edad">
+
+        <div class="elegir">
+            <label><input type="checkbox" id="alcohol"> ¿Bebe alcohol?</label>
+            <label><input type="checkbox" id="lentes"> ¿Usa lentes?</label>
+            <label><input type="checkbox" id="enfermedad"> ¿Padece enfermedad?</label>
+        </div>
+
+        <button onclick="calcularPoliza()">Calcular Costo</button>
+        <div id="resultado" class="res"></div>
+        <img src="..//imagenes/seguro.jpg" alt="seguro">
+    </div>
+    
+</body>
+<script src="..//scripts/3.9.js"></script>
+</html>

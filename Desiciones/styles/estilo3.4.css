@@ -1,0 +1,87 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f0f2f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333; 
+}
+
+.estacionamiento { 
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.Cobro { 
+    background: white; 
+    padding: 25px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+h2 { 
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px; 
+    color: #007bff; 
+    margin-top: 0;
+    text-align: center;
+}
+
+.input-group { 
+    margin-top: 20px;
+    margin-bottom: 15px; 
+}
+
+label { 
+    display: block; 
+    font-size: 0.9rem; 
+    margin-bottom: 6px; 
+    color: #555;
+}
+
+input[type="number"] { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+
+button { 
+    background: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-weight: bold; 
+    margin-top: 10px; 
+    transition: background 0.3s;
+}
+
+button:hover { 
+    background: #0056b3; 
+}
+
+.result { 
+    margin-top: 20px; 
+    padding: 12px; 
+    border-left: 4px solid #28a745;
+    background: #f8fff9; 
+    font-weight: bold; 
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 8px;
+    display: block;
+    opacity: 0.9;
+}
